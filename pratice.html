@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking Form</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Flight Search</h1>
+        <form>
+          <div class="form-group">
+            <label for="type">Type</label>
+            <select class="form-control" id="type">
+              <option>One-way</option>
+              <option>Round-trip</option>
+              <option>Multi-city</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="from">From</label>
+            <input type="text" class="form-control" id="from" value="Ahmedabad, India (AM...">
+          </div>
+          <div class="form-group">
+            <label for="to">To</label>
+            <input type="text" class="form-control" id="to">
+          </div>
+          <div class="form-group">
+            <label for="depart">Depart</label>
+            <input type="date" class="form-control" id="depart">
+          </div>
+          <div class="form-group">
+            <label for="return">Return</label>
+            <input type="date" class="form-control" id="return">
+          </div>
+          <div class="form-group">
+            <label for="adults">Adults</label>
+            <select class="form-control" id="adults">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="cabin-class">Cabin Class</label>
+            <select class="form-control" id="cabin-class">
+              <option>Economy</option>
+              <option>Premium Economy</option>
+              <option>Business</option>
+              <option>First Class</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="payment-type">Payment Type</label>
+            <select class="form-control" id="payment-type">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+</body>
+</html>

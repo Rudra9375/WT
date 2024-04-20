@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<head>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  border:1px solid rgb(189, 187, 187);
+  border-radius: 5px;
+  box-shadow:3px 1px 32px -30px rgba(66, 64, 66, 1);;
+}
+.flex-container > div {
+  width: auto;
+  margin: 10px;
+  line-height: auto;
+}
+.flex-container:hover{
+    border:1px solid blue;
+    border:blue;
+}
+.div1{
+  margin-left:152px;
+}
+.move{
+  margin-left:100px;margin-right:100px;
+}
+.heading{
+  margin-left: 100px;
+}
+@media only screen and (max-width:440px) and (min-width:370px){
+  .move{
+    margin-left:0px;margin-right:0px;
+  }
+  .heading{
+    margin-left: 0px;
+  }
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid ">
+          <a class="logo" href="#"><img src="https://th.bing.com/th/id/OIP.QIg2ejWXEHoJ1xlhx5mQLgHaFe?rs=1&pid=ImgDetMain" height="50px" width="70px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">ABOUT US</a>
+              </li>
+              <li>
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+              </li>
+              <li>
+                <a class="nav-link" href="hotels.html">HOTELS</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <a href="detailspage.html" class="btn btn-outline-primary" style="margin-right:10px;">Login</a>
+              <a href="sign-up.html" class="btn btn-outline-primary">Sign-Up</a>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h1  class="mt-5 heading"style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Showing Properties in Delhi</h1>
+    <div class="flex-container move">
+        <div>
+            <img src="https://r1imghtlak.mmtcdn.com/d076a970c29e11ebbbed0242ac110005.jpg?&output-quality=75&downsize=243:162&output-format=jpg" height="200px" width="350px">
+            
+        </div>
+        <div><h4 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Estrela Do Mar Beach Resort - A Beach Property</h3>
+        <p style="font-size: 17px;">Calangute | In North Goa | 1-2 minutes walk from Calangute Beach</p>
+        <button style="font-size: small; background: transparent; border-radius: 5px;">friends fridendly</button>
+        <p style="color: rgba(77, 201, 124, 0.82);">Book with Rs.0 payment</p><br>
+        </div>
+        
+        <div style="float:right;"><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:blue;font-Size:20px;">Very good <button style="border-radius: 3px; background-color: blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white; border:none;">3.8</button></p>
+            <p>(7201 Rating)</p>
+                <strike>Rs.7883</strike>
+                <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Rs.3700</h3>
+            </p>
+            <p>+1180 taxe& fees per night</p>
+        </div>  
+        </div>
+        <div class="flex-container mt-5 move">
+            <div>
+                <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201309021636532583-2ee35cbe818711ebabe20242ac110004.jpg?&output-quality=75&downsize=243:162&output-format=jpg" height="200px" width="350px" class="mt-1">
+                
+            </div>
+            <div>
+                <img src="https://promos.makemytrip.com/Hotels_product/Value_Stays/v2/logo/ValueStays-3.png" height="40px" width="200px">
+                <h4 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+                Resort Primo Bom Terra Verde</h3>
+            <p style="font-size: 17px;">Baga | In North Goa | 1.3km drive to Bega Beach walk from Calangut</p>
+            <button style="font-size: small; background: transparent; border-radius: 5px;">friends fridendly</button>
+            
+            <p style="color: rgba(77, 201, 124, 0.82);">Free Cancellation<br>Book with Rs.0 payment</p><br>
+            </div>
+            
+            <div class="move"><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:blue;font-Size:20px;">Very good <button style="border-radius: 3px; background-color: blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white; border:none;">3.9</button></p>
+                <p>(7201 Rating)</p>
+                    <strike>Rs.3399</strike>
+                    <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Rs.1800</h3>
+                </p>
+                <p>+1180 taxe& fees per night</p>
+            </div>  
+            </div>
+            <div class="flex-container mt-5 move">
+                <div>
+                    <img src="https://r1imghtlak.mmtcdn.com/133b903656d611eeafd30a58a9feac02.jpg?&output-quality=75&downsize=243:162&output-format=jpg" height="200px" width="350px">
+                    
+                </div>
+                <div><h4 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Park Inn by Radisson Goa Candolim</h3>
+                <p style="font-size: 17px;">Candolim | In North Goa | 3-4 minutes walk from Candolim Beach wa</p>
+                
+                <p style="color: rgba(77, 201, 124, 0.82);">*Book with Rs.0 payment<br>
+                *Free Cancellation<br>
+            <img src="https://promos.makemytrip.com/Hotels_product/Inclusions/Icons/Food%26Beverage_F%26BServices_Green.png" width="15px">15% Discount On F&B Services<br>
+        *Breakfast Included</p><br>
+                </div>
+                
+                <div class="div1"><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:blue;font-Size:20px;">Very good <button style="border-radius: 3px; background-color: blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white; border:none;">4.0</button></p>
+                    <p>(7201 Rating)</p>
+                        <strike>Rs.7883</strike>
+                        <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Rs.5680</h3>
+                    </p>
+                    <p>+1180 taxe& fees <br>per night</p>
+                </div>  
+                </div>
+                <div class="flex-container mt-5 move">
+                    <div>
+                        <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/201203301842173153-c9eb91a01b2011ea90480242ac110002.jpg?&output-quality=75&downsize=243:162&output-format=jpg" height="200px" width="350px">
+                        
+                    </div>
+                    <div><h4 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Hard Rock Hotel Goa Calangute</h3>
+                    <p style="font-size: 17px;">Calangute | In North Goa | 1.3 km drive to Calangute Beach Beach</p>
+                    <button style="font-size: small; background: transparent; border-radius: 5px;">couple fridendly</button>
+                    <p style="color: rgba(77, 201, 124, 0.82);">*Book with Rs.0 payment<br>
+                    *breakfast included<br>
+                <img src="https://promos.makemytrip.com/Hotels_product/UGC/chatgpt.png" width="20px"> live in great comfort and ambiance</p><br>
+                    </div>
+                    
+                    <div class="div1"><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:blue;font-Size:20px;">Very good <button style="border-radius: 3px; background-color: blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white; border:none;">4.1</button></p>
+                        <p>(7201 Rating)</p>
+                        <img src="https://promos.makemytrip.com/Growth/Images/B2C/early_bird_new_tag.png" width="100px"><br>
+                            <strike>Rs.10000</strike>
+                            <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Rs.7999</h3>
+                        </p>
+                        <p>+1180 taxe& fees per night</p>
+                    </div>  
+                    </div>
+                    <div class="flex-container mt-5 move">
+                        <div>
+                            <img src="https://r2imghtlak.mmtcdn.com/r2-mmt-htl-image/htl-imgs/202012221936523613-b2ae34ce014c11edacf40a58a9feac02.jpg?&output-quality=75&downsize=243:162&output-format=jpg" height="200px" width="350px">
+                            
+                        </div>
+                        <div><h4 style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">SinQ Beach Resort</h3>
+                        <p style="font-size: 17px;">Calangute | In North Goa | 3-4 minutes walk from Calangute Beach</p>
+                        <button style="font-size: small; background: transparent; border-radius: 5px;">Couple fridendly</button>
+                        <p style="color: rgba(77, 201, 124, 0.82);">*Free Cancellation<br>*Book with Rs.0 payment
+                        <br><img src="https://promos.makemytrip.com/Hotels_product/UGC/chatgpt.png"width="20px">Great location near beach with ampile parking</p><br>
+                        </div>
+                        
+                        <div style="float:right;"><p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color:blue;font-Size:20px;">Very good <button style="border-radius: 3px; background-color: blue; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white; border:none;">3.8</button></p>
+                            <p>(7201 Rating)</p>
+                                <strike>Rs.3000</strike>
+                                <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Rs.2251</h3>
+                            </p>
+                            <p>+1180 taxe& fees per night</p>
+                        </div>  
+                        </div>
+                        <footer class="footer bg-dark text-white mt-5">
+                            <div class="container">
+                              <div class="row">
+                                <div class="col-lg-8 col-md-8 col-sm-12">
+                                  <h6 class="text-uppercase font-weight-bold mt-5">About Us</h6>
+                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed.</p>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12">
+                                  <h6 class="text-uppercase font-weight-bold mt-5">Follow Us</h6>
+                                  <ul class="list-unstyled">
+                                    <li><a href="#" style="color:white;text-decoration: none;"><i class="fa fa-facebook"></i><img
+                                          src="https://3.bp.blogspot.com/-KNqO9JuXUN8/Ti2b1LHRquI/AAAAAAAAAIU/L6k8Wlzxj9k/s1600/logo_facebook.png"
+                                          height="30px" width="30px">Facebook</a></li>
+                                    <li class="mt-2"><a href="#" style="color:white; text-decoration: none;"><i class="fa fa-twitter"></i><img
+                                          src="https://d1fdloi71mui9q.cloudfront.net/a7XkdYCBTmeRmez8xouw_Twitter_Logo.png" height="30px"
+                                          width="30px"> Twitter</a></li>
+                                    <li class="mt-2"><a href="#" style="color:white; text-decoration: none;"><i
+                                          class="fa fa-instagram"></i><img
+                                          src="https://s3.amazonaws.com/s3.timetoast.com/public/uploads/photo/12284903/image/8b8dede9d094f80a196c3b7e72f560ac"
+                                          height="30px" width="30px"> Instagram</a></li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                          </footer>
+       
+</body>
+</html>
